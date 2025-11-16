@@ -18,7 +18,6 @@ public abstract class BasePage {
         try {
             element.click();
         } catch (ElementClickInterceptedException e) {
-            // если Selenium не может кликнуть сам — кликаем через JS
             ((JavascriptExecutor) driver)
                     .executeScript("arguments[0].click();", element);
         }

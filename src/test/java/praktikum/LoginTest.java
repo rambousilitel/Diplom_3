@@ -48,7 +48,6 @@ public class LoginTest extends BaseUiTest {
     }
 
     private void assertLoggedIn(WebDriver d) {
-        // после логина нас кидает на главную, проверим наличие кнопки "Оформить заказ"
         assertTrue("Ожидалась главная страница после логина",
                 d.getCurrentUrl().contains("/"));
     }

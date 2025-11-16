@@ -16,16 +16,12 @@ public class WebDriverFactory {
                 return new ChromeDriver();
 
             case YANDEX:
-                // Яндекс-браузер использует тот же ChromeDriver,
-                // но нужен yandexdriver.exe и путь к бинарнику.
+
                 WebDriverManager.chromedriver().setup();
                 ChromeOptions options = new ChromeOptions();
 
-                // TODO: укажи актуальный путь к бинарнику Яндекс.Браузера
-                // например: "C:\\Users\\Имя\\AppData\\Local\\Yandex\\YandexBrowser\\Application\\browser.exe"
-                options.setBinary("C:\\Users\\jops1\\AppData\\Local\\Yandex\\YandexBrowser\\Application\\browser.exe");
+п                options.setBinary("C:\\Users\\jops1\\AppData\\Local\\Yandex\\YandexBrowser\\Application\\browser.exe");
 
-                // TODO: при необходимости укажи путь к yandexdriver.exe
                 System.setProperty("webdriver.chrome.driver", "D:\\yandexdriver.exe");
 
                 return new ChromeDriver(options);

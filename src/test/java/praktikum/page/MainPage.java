@@ -23,7 +23,7 @@ public class MainPage extends BasePage {
     private final By saucesTab = By.xpath("//span[text()='Соусы']/..");
     private final By fillingsTab = By.xpath("//span[text()='Начинки']/..");
 
-    // Заголовки секций (чтобы проверять, куда прокрутилось)
+    // Заголовки секций
     private final By bunsHeader = By.xpath("//h2[text()='Булки']");
     private final By saucesHeader = By.xpath("//h2[text()='Соусы']");
     private final By fillingsHeader = By.xpath("//h2[text()='Начинки']");
