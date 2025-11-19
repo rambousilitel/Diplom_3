@@ -1,0 +1,96 @@
+ .allure/allure-2.13.9/bin/allure                   | 188 [32m+++++++++++++++++++[m
+ .allure/allure-2.13.9/bin/allure.bat               | 100 [32m+++++++++++[m
+ .allure/allure-2.13.9/config/allure-cucumber.yml   |   0
+ .allure/allure-2.13.9/config/allure-junit.yml      |   3 [32m+[m
+ .allure/allure-2.13.9/config/allure.yml            |  10 [32m++[m
+ .../lib/allure-commandline-2.13.9.jar              | Bin [31m0[m -> [32m21584[m bytes
+ .../allure-2.13.9/lib/allure-generator-2.13.9.jar  | Bin [31m0[m -> [32m1131481[m bytes
+ .allure/allure-2.13.9/lib/allure-model-2.13.0.jar  | Bin [31m0[m -> [32m25579[m bytes
+ .../allure-2.13.9/lib/allure-plugin-api-2.13.9.jar | Bin [31m0[m -> [32m91978[m bytes
+ .allure/allure-2.13.9/lib/allure1-model-1.0.jar    | Bin [31m0[m -> [32m36103[m bytes
+ .../allure-2.13.9/lib/commons-beanutils-1.9.3.jar  | Bin [31m0[m -> [32m246174[m bytes
+ .allure/allure-2.13.9/lib/commons-codec-1.11.jar   | Bin [31m0[m -> [32m335042[m bytes
+ .../lib/commons-collections-3.2.2.jar              | Bin [31m0[m -> [32m588337[m bytes
+ .../allure-2.13.9/lib/commons-collections4-4.2.jar | Bin [31m0[m -> [32m752798[m bytes
+ .allure/allure-2.13.9/lib/commons-io-2.6.jar       | Bin [31m0[m -> [32m214788[m bytes
+ .allure/allure-2.13.9/lib/commons-lang3-3.9.jar    | Bin [31m0[m -> [32m503880[m bytes
+ .allure/allure-2.13.9/lib/commons-logging-1.2.jar  | Bin [31m0[m -> [32m61829[m bytes
+ .allure/allure-2.13.9/lib/commons-text-1.3.jar     | Bin [31m0[m -> [32m182954[m bytes
+ .../lib/config/jetty-logging.properties            |   2 [32m+[m
+ .allure/allure-2.13.9/lib/config/log4j.properties  |   8 [32m+[m
+ .allure/allure-2.13.9/lib/flexmark-0.50.36.jar     | Bin [31m0[m -> [32m360848[m bytes
+ .../allure-2.13.9/lib/flexmark-util-0.50.36.jar    | Bin [31m0[m -> [32m377222[m bytes
+ .allure/allure-2.13.9/lib/freemarker-2.3.29.jar    | Bin [31m0[m -> [32m1586948[m bytes
+ .allure/allure-2.13.9/lib/httpclient-4.5.9.jar     | Bin [31m0[m -> [32m774384[m bytes
+ .allure/allure-2.13.9/lib/httpcore-4.4.11.jar      | Bin [31m0[m -> [32m326874[m bytes
+ .../lib/jackson-annotations-2.9.0.jar              | Bin [31m0[m -> [32m66519[m bytes
+ .allure/allure-2.13.9/lib/jackson-core-2.9.8.jar   | Bin [31m0[m -> [32m325619[m bytes
+ .../allure-2.13.9/lib/jackson-databind-2.9.8.jar   | Bin [31m0[m -> [32m1347236[m bytes
+ .../lib/jackson-dataformat-xml-2.9.8.jar           | Bin [31m0[m -> [32m99323[m bytes
+ .../lib/jackson-dataformat-yaml-2.9.8.jar          | Bin [31m0[m -> [32m41381[m bytes
+ .../lib/jackson-module-jaxb-annotations-2.9.8.jar  | Bin [31m0[m -> [32m32627[m bytes
+ .../lib/javax.activation-api-1.2.0.jar             | Bin [31m0[m -> [32m56674[m bytes
+ .../allure-2.13.9/lib/javax.servlet-api-3.1.0.jar  | Bin [31m0[m -> [32m95806[m bytes
+ .allure/allure-2.13.9/lib/jaxb-api-2.3.1.jar       | Bin [31m0[m -> [32m128076[m bytes
+ .allure/allure-2.13.9/lib/jaxb-utils-1.0.jar       | Bin [31m0[m -> [32m4745[m bytes
+ .allure/allure-2.13.9/lib/jcommander-1.78.jar      | Bin [31m0[m -> [32m83782[m bytes
+ .../lib/jetty-http-9.4.20.v20190813.jar            | Bin [31m0[m -> [32m207850[m bytes
+ .../lib/jetty-io-9.4.20.v20190813.jar              | Bin [31m0[m -> [32m156134[m bytes
+ .../lib/jetty-server-9.4.20.v20190813.jar          | Bin [31m0[m -> [32m657307[m bytes
+ .../lib/jetty-util-9.4.20.v20190813.jar            | Bin [31m0[m -> [32m538722[m bytes
+ .allure/allure-2.13.9/lib/log4j-1.2.17.jar         | Bin [31m0[m -> [32m489884[m bytes
+ .allure/allure-2.13.9/lib/opencsv-4.6.jar          | Bin [31m0[m -> [32m170348[m bytes
+ .allure/allure-2.13.9/lib/properties-2.0.RC5.jar   | Bin [31m0[m -> [32m38235[m bytes
+ .allure/allure-2.13.9/lib/slf4j-api-1.7.28.jar     | Bin [31m0[m -> [32m41117[m bytes
+ .allure/allure-2.13.9/lib/slf4j-log4j12-1.7.28.jar | Bin [31m0[m -> [32m12212[m bytes
+ .allure/allure-2.13.9/lib/snakeyaml-1.23.jar       | Bin [31m0[m -> [32m301298[m bytes
+ .allure/allure-2.13.9/lib/stax2-api-3.1.4.jar      | Bin [31m0[m -> [32m161867[m bytes
+ .allure/allure-2.13.9/lib/tika-core-1.22.jar       | Bin [31m0[m -> [32m704498[m bytes
+ .allure/allure-2.13.9/lib/woodstox-core-5.0.3.jar  | Bin [31m0[m -> [32m512742[m bytes
+ .allure/allure-2.13.9/plugins/README.txt           |   1 [32m+[m
+ .../plugins/behaviors-plugin/allure-plugin.yml     |   7 [32m+[m
+ .../behaviors-plugin/behaviors-plugin-2.13.9.jar   | Bin [31m0[m -> [32m8223[m bytes
+ .../plugins/behaviors-plugin/static/index.js       | 178 [32m++++++++++++++++++[m
+ .../plugins/custom-logo-plugin/allure-plugin.yml   |   5 [32m+[m
+ .../custom-logo-plugin-2.13.9.jar                  | Bin [31m0[m -> [32m312[m bytes
+ .../custom-logo-plugin/static/custom-logo.svg      |   1 [32m+[m
+ .../plugins/custom-logo-plugin/static/styles.css   |   4 [32m+[m
+ .../plugins/jira-plugin/allure-plugin.yml          |   5 [32m+[m
+ .../plugins/jira-plugin/jira-plugin-2.13.9.jar     | Bin [31m0[m -> [32m8928[m bytes
+ .../jira-plugin/lib/allure-jira-commons-2.13.9.jar | Bin [31m0[m -> [32m18806[m bytes
+ .../jira-plugin/lib/converter-jackson-2.6.1.jar    | Bin [31m0[m -> [32m5719[m bytes
+ .../jira-plugin/lib/jackson-annotations-2.9.0.jar  | Bin [31m0[m -> [32m66519[m bytes
+ .../plugins/jira-plugin/lib/jackson-core-2.9.8.jar | Bin [31m0[m -> [32m325619[m bytes
+ .../jira-plugin/lib/jackson-databind-2.9.8.jar     | Bin [31m0[m -> [32m1347236[m bytes
+ .../plugins/jira-plugin/lib/okhttp-3.12.0.jar      | Bin [31m0[m -> [32m422786[m bytes
+ .../plugins/jira-plugin/lib/okio-1.15.0.jar        | Bin [31m0[m -> [32m88732[m bytes
+ .../plugins/jira-plugin/lib/retrofit-2.6.1.jar     | Bin [31m0[m -> [32m127208[m bytes
+ .../plugins/junit-xml-plugin/allure-plugin.yml     |   5 [32m+[m
+ .../junit-xml-plugin/junit-xml-plugin-2.13.9.jar   | Bin [31m0[m -> [32m10789[m bytes
+ .../plugins/packages-plugin/allure-plugin.yml      |   7 [32m+[m
+ .../packages-plugin/packages-plugin-2.13.9.jar     | Bin [31m0[m -> [32m4681[m bytes
+ .../plugins/packages-plugin/static/index.js        | 104 [32m+++++++++++[m
+ .../plugins/screen-diff-plugin/allure-plugin.yml   |   7 [32m+[m
+ .../screen-diff-plugin-2.13.9.jar                  | Bin [31m0[m -> [32m312[m bytes
+ .../plugins/screen-diff-plugin/static/index.js     | 200 [32m+++++++++++++++++++++[m
+ .../plugins/screen-diff-plugin/static/styles.css   |  30 [32m++++[m
+ .../plugins/trx-plugin/allure-plugin.yml           |   5 [32m+[m
+ .../plugins/trx-plugin/trx-plugin-2.13.9.jar       | Bin [31m0[m -> [32m10044[m bytes
+ .../plugins/xctest-plugin/allure-plugin.yml        |   5 [32m+[m
+ .../plugins/xctest-plugin/lib/xmlwise-1.2.11.jar   | Bin [31m0[m -> [32m15991[m bytes
+ .../plugins/xctest-plugin/xctest-plugin-2.13.9.jar | Bin [31m0[m -> [32m9475[m bytes
+ .../plugins/xray-plugin/allure-plugin.yml          |   5 [32m+[m
+ .../xray-plugin/lib/allure-jira-commons-2.13.9.jar | Bin [31m0[m -> [32m18806[m bytes
+ .../xray-plugin/lib/converter-jackson-2.6.1.jar    | Bin [31m0[m -> [32m5719[m bytes
+ .../xray-plugin/lib/jackson-annotations-2.9.0.jar  | Bin [31m0[m -> [32m66519[m bytes
+ .../plugins/xray-plugin/lib/jackson-core-2.9.8.jar | Bin [31m0[m -> [32m325619[m bytes
+ .../xray-plugin/lib/jackson-databind-2.9.8.jar     | Bin [31m0[m -> [32m1347236[m bytes
+ .../plugins/xray-plugin/lib/okhttp-3.12.0.jar      | Bin [31m0[m -> [32m422786[m bytes
+ .../plugins/xray-plugin/lib/okio-1.15.0.jar        | Bin [31m0[m -> [32m88732[m bytes
+ .../plugins/xray-plugin/lib/retrofit-2.6.1.jar     | Bin [31m0[m -> [32m127208[m bytes
+ .../plugins/xray-plugin/xray-plugin-2.13.9.jar     | Bin [31m0[m -> [32m6081[m bytes
+ .../plugins/xunit-xml-plugin/allure-plugin.yml     |   5 [32m+[m
+ .../xunit-xml-plugin/xunit-xml-plugin-2.13.9.jar   | Bin [31m0[m -> [32m6899[m bytes
+ .gitignore                                         |  39 [32m++++[m
+ .idea/.gitignore                                   |   3 [32m+[m
+ .idea/encodings.xml                           
